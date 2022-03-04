@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weatherist</string>
+    <string name="error_message">Error, Try Again!</string>
+    <string name="city_name">City Name</string>
+    <string name="city_code">CITY CODE</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="info">:info</string>
+</resources>
