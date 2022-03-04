@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
 
                 tv_degree.text = data.main.temp.toInt().toString() + "°C"
                 tv_humidity.text = data.main.humidity.toString() + "%"
-                tv_wind_speed.text = data.wind.speed.toString() + "km/h"
+                tv_wind_speed.text = data.wind.speed.toString() + " km/h"
                 tv_lat.text = data.coord.lat.toString()
                 tv_lon.text = data.coord.lon.toString()
                 tv_description.text = data.weather[0].description.capitalize()
