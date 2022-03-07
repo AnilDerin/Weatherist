@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/a_der/AndroidStudioProjects/Weatherist/app/src/main/res/drawable-v24/bg_screen.xml" value="0.1965" />
+        <entry key="..\:/Users/a_der/AndroidStudioProjects/Weatherist/app/src/main/res/drawable-v24/ic_baseline_cloud_queue_24.xml" value="0.1965" />
+        <entry key="..\:/Users/a_der/AndroidStudioProjects/Weatherist/app/src/main/res/drawable-v24/ic_baseline_refresh_24.xml" value="0.1965" />
+        <entry key="..\:/Users/a_der/AndroidStudioProjects/Weatherist/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.1965" />
         <entry key="..\:/Users/a_der/AndroidStudioProjects/Weatherist/app/src/main/res/layout/activity_main.xml" value="0.3292572463768116" />
       </map>
     </option>
