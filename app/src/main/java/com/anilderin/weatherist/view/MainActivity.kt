@@ -1,10 +1,13 @@
 package com.anilderin.weatherist.view
 
 import android.annotation.SuppressLint
+import android.app.Activity
+import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -59,8 +62,14 @@ class MainActivity : AppCompatActivity() {
                 viewModel.refreshData(cityName)
                 getLiveData()
                 Log.i(TAG, "onCreate: $cityName")
+                it.hideKeyboard()
             }
         }
+    }
+
+    private fun View.hideKeyboard() {
+        val inputManager = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputManager.hideSoftInputFromWindow(windowToken, 0)
     }
 
     @SuppressLint("SetTextI18n")
