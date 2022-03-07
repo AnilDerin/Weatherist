@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         SET = GET.edit()
 
 
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
         val cName = GET.getString("cityName", "Istanbul")
         edt_city_name.setText(cName)
